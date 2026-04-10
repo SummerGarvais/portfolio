@@ -4,3 +4,11 @@ body {
 	 */
   font: 100%/1.5 system-ui;
 }
+body {
+	max-width: 100ch;
+    margin: 0 auto;
+    padding: 1rem;
+}
+img {
+	max-width: 100%;
+}
