@@ -26,8 +26,13 @@ nav {
 	border-bottom-style: solid;
 	border-bottom-color: oklch(80% 3% 200);
 }
+nav a {
+    flex: 1;
+    color: inherit;
+    text-decoration: none;
+    padding: 0.5em;
+}
 a{
-	flex: 1;
 	color: inherit;
 	text-decoration: none;
 }
@@ -47,13 +52,31 @@ a:hover {
     background-color: oklch(from var(--color-accent) 95% 5% h);
 }
 form {
-	font: inherit;
-	width: 100%;
-	box-sizing: border-box;
+    font: inherit;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
 }
 label {
-	font: inherit;
-	display: block;
-	width: 100%;
-	margin-block: 1;
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: 1 / -1;
+}
+h1 {
+    font-size: 400%;
+    line-height: 1.1;
+    text-wrap: balance;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    text-wrap: balance;
+}
+button {
+    grid-column: 1 / -1;
+    font: inherit;
+}
+input, textarea {
+    font: inherit;
+    width: 100%;
+    box-sizing: border-box;
 }
