@@ -80,3 +80,36 @@ input, textarea {
     width: 100%;
     box-sizing: border-box;
 }
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.projects article {
+    display: grid;
+    grid-row: span 3;
+    grid-template-rows: subgrid;
+}
+
+.projects h2 {
+    margin: 0;
+    font-size: 100%;
+}
+
+section {
+    margin-block: 2em;
+}
+
+article header {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article h3 {
+    margin: 0;
+}
