@@ -46,3 +46,6 @@ a:hover {
     border-bottom-color: var(--color-accent);
     background-color: oklch(from var(--color-accent) 95% 5% h);
 }
+form {
+	font: inherit;
+}
