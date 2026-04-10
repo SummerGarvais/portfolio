@@ -48,4 +48,12 @@ a:hover {
 }
 form {
 	font: inherit;
+	width: 100%;
+	box-sizing: border-box;
+}
+label {
+	font: inherit;
+	display: block;
+	width: 100%;
+	margin-block: 1;
 }
