@@ -29,14 +29,50 @@ const BASE_PATH = (location.hostname === "localhost" || location.hostname === "1
 for (let p of pages){
   let url = p.url;
   let title = p.title;
+
   if (!url.startsWith('http')) {
     url = BASE_PATH + url;
   }
+
   let a = document.createElement('a');
   a.href = url;
   a.textContent = title;
   nav.append(a);
-  if (a.host === location.host && a.pathname.replace(/\/$/, '') === location.pathname.replace(/\/$/, '')) {
-    a.classList.add('current');
-  }
+  a.classList.toggle(
+  'current',
+  a.host === location.host && (
+    a.pathname === location.pathname ||
+    location.pathname.endsWith(a.pathname.replace(/\/$/, '') + '/index.html') ||
+    (a.pathname === '/' && location.pathname.endsWith('/index.html') && location.pathname.split('/').length === 2)
+  )
+);
+
 }
+document.body.insertAdjacentHTML(
+  'afterbegin',
+  `<label class="color-scheme">
+    Theme:
+    <select>
+      <option color-schem="light dark">Automatic</option>
+      <option color-scheme="light">Light</option>
+      <option color-scheme="dark">Dark</option>
+    </select>
+  </label>`,
+);
+
+
+
+let color_select = document.querySelector('.color-scheme select');
+
+if (localStorage.colorScheme) {
+  document.documentElement.style.setProperty('color-scheme', localStorage.colorScheme);
+  color_select.value = localStorage.colorScheme;
+}
+
+
+color_select.addEventListener('input', function(event) {
+  console.log('color scheme changed to', event.target.value);
+  let chosenScheme = this.value;
+  document.documentElement.style.setProperty('color-scheme', chosenScheme);
+  localStorage.colorScheme = chosenScheme;
+});
