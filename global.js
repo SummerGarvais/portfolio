@@ -7,5 +7,5 @@ function $$(selector, context = document) {
 let navLinks = $$("nav a");
 
 let currentLink = navLinks.find(
-    a => a.href === location.href && a.pathname === location.pathname,);
+    (a) => a.host === location.host && a.pathname === location.pathname);
 currentLink?.classList.add('current');
