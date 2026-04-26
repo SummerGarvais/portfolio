@@ -42,8 +42,7 @@ for (let p of pages){
   'current',
   a.host === location.host && (
     a.pathname === location.pathname ||
-    location.pathname.endsWith(a.pathname.replace(/\/$/, '') + '/index.html') ||
-    (a.pathname === '/' && location.pathname.endsWith('/index.html') && location.pathname.split('/').length === 2)
+    location.pathname.endsWith(a.pathname.replace(/\/$/, '') + '/index.html')
   )
 );
 
@@ -53,7 +52,7 @@ document.body.insertAdjacentHTML(
   `<label class="color-scheme">
     Theme:
     <select>
-      <option color-schem="light dark">Automatic</option>
+      <option color-scheme="light dark">Automatic</option>
       <option color-scheme="light">Light</option>
       <option color-scheme="dark">Dark</option>
     </select>
@@ -105,20 +104,23 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
 
   containerElement.innerHTML = '';
 
-  if (projects.length === 0) {
+  if (project.length === 0) {
         containerElement.innerHTML = '<p>No projects to display.</p>';
         return;
     }
 
 
-  for (const project of projects) {
+  for (const proj of project) {
         const article = document.createElement('article');
         article.innerHTML = `
-            <${headingLevel}>${project.title ?? 'Untitled'}</${headingLevel}>
-            <img src="${project.image ?? ''}" alt="${project.title ?? 'Project image'}">
-            <p>${project.description ?? 'No description available.'}</p>
+            <${headingLevel}>${proj.title ?? 'Untitled'}</${headingLevel}>
+            <img src="${proj.image ?? ''}" alt="${proj.title ?? 'Project image'}">
+            <p>${proj.description ?? 'No description available.'}</p>
         `;
         containerElement.appendChild(article);
     }
 }
 
+export async function fetchGitHubData(username) {
+  return fetchJSON(`https://api.github.com/users/${username}`);
+}
