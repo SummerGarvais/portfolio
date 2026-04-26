@@ -1,13 +1,16 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
+        "title": "Power Outage Prediction Project",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde error ratione, sapiente illo voluptatem accusantium sunt autem nemo officiis, maxime aperiam cum qui incidunt provident! Perferendis minima explicabo quo."
+        "year" : 2025,
+        "description": "A project aimed at taking in historical American power outage data and analyzing it to predict how long a new power outage will last."
     },
     {
-        "title": "Ipsam, officiis. Temporibus, magnam.",
+
+        "title": "San Diego Trolley Ridership vs. Crime rates",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quisquam non laborum repellendus possimus? Beatae vitae id, voluptatem officia nostrum iusto. Quis distinctio corporis, rem neque quisquam expedita ducimus perspiciatis error nihil ex voluptas, deleniti corrupti ipsum nobis totam?"
+        "year" : 2026,
+        "description": "Using San Diego trolley ridership data over the past few years, me and a team tried to uncover trends between trolley ridership at a station and crime in the area."
     },
     {
         "title": "Odit, assumenda! Velit, cupiditate.",
