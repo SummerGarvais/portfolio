@@ -13,53 +13,63 @@
         "description": "Using San Diego trolley ridership data over the past few years, me and a team tried to uncover trends between trolley ridership at a station and crime in the area."
     },
     {
-        "title": "Odit, assumenda! Velit, cupiditate.",
+        "title": "Data manipulation website",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Nostrum magni qui sapiente totam dolor quas amet molestias quod nam non tempore corporis dolores, ad doloribus soluta fugiat sequi quo. Sunt at delectus ea! Voluptatem incidunt aperiam excepturi nobis!"
+        "year": 2026,
+        "description": "This website is an exercise in how data visualizations can be manipulated to tell differing sides of the same proposition. Clever visual tricks and sneaky ommissions of data can help tip the scales one way or another."
     },
     {
         "title": "Unde possimus explicabo nam.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year" : 2024,
         "description": "Enim vitae ipsa perferendis atque facilis nam a, nesciunt libero quibusdam? Repellendus voluptatum enim suscipit neque eum ratione eaque aperiam? Necessitatibus quia sed eligendi iure iusto eum, molestias praesentium beatae!"
     },
     {
         "title": "Dignissimos repudiandae adipisci et?",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year" : 2023,
         "description": "Exercitationem, optio quas consequuntur illo, molestias quos repellat, excepturi cumque obcaecati iste officia illum? Eos nemo mollitia similique fugiat distinctio corporis quia quidem libero error perspiciatis? Repellendus voluptatibus velit quos?"
     },
     {
         "title": "Sequi autem sapiente illum!",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year" : 2023,
         "description": "Delectus labore possimus molestias? Cupiditate exercitationem consequatur tempore in officiis dignissimos ea porro, expedita aspernatur vero dolorem? Fugiat, deserunt corrupti maxime aliquam omnis excepturi eligendi repudiandae fugit consequuntur, minima minus!"
     },
     {
         "title": "Aut ipsam voluptatum distinctio.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year" : 2022,
         "description": "Nulla dolorem magni aliquid recusandae repudiandae explicabo. Porro reprehenderit doloribus quas nobis recusandae debitis, aliquam possimus nam accusantium. Alias consequuntur ad ipsum earum amet deleniti sequi, quia maxime dolore eius?"
     },
     {
         "title": "Ipsam maiores at earum.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year" : 2025,
         "description": "Amet temporibus tempora, maiores, voluptates ratione consequatur fugiat iusto quam repellendus tempore dignissimos odio, veniam dolor cupiditate repudiandae minima iure. Consequatur repudiandae aliquid tenetur maiores magni dolorem ut beatae deleniti!"
     },
     {
         "title": "Nihil ut voluptate omnis.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year" : 2026,
         "description": "A ipsum eos eum odit officia eius distinctio veritatis? Magnam obcaecati sed, nobis nam, dolorum nisi ipsam accusantium aliquid numquam tempore voluptas eos laudantium ipsum dolor incidunt dicta! Ea, optio?"
     },
     {
         "title": "Voluptas ipsa praesentium aspernatur!",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year" : 2024,
         "description": "Ducimus fuga fugit exercitationem voluptatem nam maiores assumenda obcaecati dolorem sapiente nesciunt iste mollitia atque at rerum consectetur repellendus nulla necessitatibus, quisquam earum natus, sit, a dignissimos ab! Odit, minus!"
     },
     {
         "title": "Velit, sint nostrum? Aspernatur.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year" : 2026,
         "description": "Facere quod incidunt, ea aspernatur aut repellendus omnis placeat voluptatibus optio, numquam, id perspiciatis nam dolores ipsam quasi tempore accusantium ex error minus odit? Laudantium ducimus doloremque maxime error at!"
     },
     {
         "title": "Dicta nobis incidunt iure?",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year" : 2025,
         "description": "Possimus deleniti labore nisi architecto alias optio delectus nobis est nesciunt, aliquam, quod voluptatibus officia ad unde, blanditiis expedita incidunt quidem. Quibusdam impedit, reprehenderit repudiandae ducimus distinctio alias nesciunt quidem."
     }
 ]

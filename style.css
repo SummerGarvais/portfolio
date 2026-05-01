@@ -136,3 +136,22 @@ article h3 {
   grid-row: 2;
   margin: 0;
 }
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+}
+
+.projects #swatch{
+    aspect-ratio: 1/1;
+    background-color: var(--color);
+    display: inline-block;
+    border-radius: "50%";
+}
+
+.projects legend{
+    display: grid;
+
+}
