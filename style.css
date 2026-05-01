@@ -140,8 +140,16 @@ article h3 {
 #projects-pie-plot {
   max-width: 20em;
   margin-block: 2em;
-
   overflow: visible;
+  &:has(path:hover) {
+    path:not(:hover) {
+       opacity: 0.5;
+    }
+  }
+  path {
+    transition: 400ms;
+    cursor: pointer;
+  }
 }
 
 .legend {
@@ -174,4 +182,12 @@ article h3 {
     display: flex;
     align-items: center;
     gap: 2em;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
 }
