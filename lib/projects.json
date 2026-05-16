@@ -20,7 +20,7 @@
     },
     {
         "title": "Bikewatching in Boston",
-        "image": "portfolio/images/bikewatching.png",
+        "image": "/portfolio/projects/bikewatching.png",
         "year" : 2026,
         "description": "This website displays Bluebikes ridership statistics in Boston throughout the course of a day."
     },
