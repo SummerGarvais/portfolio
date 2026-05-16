@@ -19,10 +19,10 @@
         "description": "This website is an exercise in how data visualizations can be manipulated to tell differing sides of the same proposition. Clever visual tricks and sneaky ommissions of data can help tip the scales one way or another."
     },
     {
-        "title": "Unde possimus explicabo nam.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "year" : 2024,
-        "description": "Enim vitae ipsa perferendis atque facilis nam a, nesciunt libero quibusdam? Repellendus voluptatum enim suscipit neque eum ratione eaque aperiam? Necessitatibus quia sed eligendi iure iusto eum, molestias praesentium beatae!"
+        "title": "Bikewatching in Boston",
+        "image": "portfolio/images/bikewatching.png",
+        "year" : 2026,
+        "description": "This website displays Bluebikes ridership statistics in Boston throughout the course of a day."
     },
     {
         "title": "Dignissimos repudiandae adipisci et?",
